@@ -1,0 +1,1 @@
+print("El nombre de tu cheve ideal es: "+'"' + input("Dime de donde eres: ")+input("Dime tu color favorito en Inglés: ") +'"')
