@@ -1,18 +1,21 @@
-capitales = ["Berlín", "Tokio", "París", "Helsinki", "Ottawa", "Canberra"]
-paises = ["Alemania", "Japón", "Francia", "Finlandia", "Canadá", "Australia"]
+texto = ",:_#,,,,,,:::____##Pyt%on_ _Total,,,,,,::#"
 
-conjunto = zip(capitales,paises)
+print(texto.lstrip(",:_#"))
 
-for capitales, paises in conjunto:
-    print(f"La capital de {paises} es {capitales}")
+#lstrip es un metodo que permite eliminar espacios de izquierda a derecha
 
+frutas = ["mango", "banana", "cereza", "ciruela", "pomelo"]
 
+frutas.insert(3, "naranja")
 
+print(frutas)
 
-espaniol = ['uno', 'dos', 'tres', 'cuatro', 'cinco']
-portugues = ['um', 'dois', 'três', 'quatro', 'cinco']
-ingles = ['one', 'two', 'three', 'four', 'five']
+#El metodo insert permite editar una lista mediante aprametros.
 
-numeros = list(zip(espaniol, portugues, ingles))
+marcas_smartphones = {"Samsung", "Xiaomi", "Apple", "Huawei", "LG"}
 
-print(numeros)
+marcas_tv = {"Sony", "Philips", "Samsung", "LG"}
+
+conjuntos_aislados = marcas_smartphones.isdisjoint(marcas_tv)
+
+print(conjuntos_aislados)
