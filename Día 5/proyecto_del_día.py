@@ -200,7 +200,7 @@ Otro de mis retos fue la de checar si de mi lista intentos hacia match con la li
 habia dado una respuesat correcta o incorrecta para hayas la palabra secreta
 
 Finalmente si bien aprendi a mejorar mi flujo de trabajo
-me llevo un sabor agridulce, ya que los ultimos detalles tuve que depender de investigar por mi propia cuenta
+me llevo un sabor agridulce, ya que los ultimos detalles tuve que depender de  investigar por mi propia cuenta
 y si bien encontraba la solucion, no sentia que fuese un logro realmente mio.
 
 pero quien diria que a programar se aprende programando :D
