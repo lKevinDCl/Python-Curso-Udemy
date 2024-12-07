@@ -9,6 +9,7 @@ ruta_windows = PureWindowsPath(carpeta) #Nos permite convertir una ruta en una r
 #print (carpeta.name) Nos da el nombre del archivo
 #print (carpeta.suffix) nos devuelve el sufijo es decir .txt
 #print (carpeta.stem) nos da el nombre del archivo sin el sufijo
+print (carpeta.write_text())
 
 
 print(ruta_windows)
