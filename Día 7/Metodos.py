@@ -77,10 +77,3 @@ class Alarma():
 mi_alarma = Alarma()
 
 mi_alarma.postergar(15)
-
-
-'ejercicio 4'
-
-'''
-
-'''
