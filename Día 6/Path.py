@@ -13,7 +13,7 @@ print(guia2)
 guia = Path (Path.home(), "Europa")
 
 # **/*.txt Permite traer todos los archivos .txt del directorio sin importar las subcarpetas
-# *.txt Permite traer todos los archivos tx exclusivamente de una carpeta.
+# *.txt Permite traer todos los archivos txt exclusivamente de una carpeta.
 for txt in Path(guia).glob("**/*.txt"):
     print(txt)
 
