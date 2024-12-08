@@ -1,4 +1,4 @@
-'''class Animal():
+class Animal():
 
     def __init__(self, edad, color):
         self.edad = edad
@@ -27,7 +27,7 @@ piolin.hablar()#Dice Pio
 piolin.volar(30)
 
 mi_animal.nacer()
-'''
+
 
 
 
