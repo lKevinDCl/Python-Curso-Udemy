@@ -29,10 +29,11 @@ class Cliente(Persona):
     #Debe permitir retirar una n cantidad de dinero al cliente
     def retirar(self, cantidad):
 
-        if  self.balance - cantidad < 0:
-            print('Fondos insuficientes')
-            self.balance + cantidad
+        if  self.balance > cantidad:
+            self.balance -= cantidad
+            print('Retiro Realizado')
         else:
+            print('Fondos insuficientes')
             self.balance -= cantidad
 
 
