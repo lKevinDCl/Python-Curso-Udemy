@@ -9,5 +9,11 @@ sopa = bs4.BeautifulSoup(resultado.text, 'lxml')
 
 print(sopa.select('title')[0].getText())
 
-parrafo_especial = sopa.select('p')[3].getText()
-print(parrafo_especial)
+"""parrafo_especial = sopa.select('p')[3].getText()
+print(parrafo_especial)"""
+
+columna_lateral = sopa.select('.content p')
+print(columna_lateral)
+
+for p in columna_lateral:
+    print(p.getText())
