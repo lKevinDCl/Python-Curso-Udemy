@@ -1,0 +1,26 @@
+# Entorno virtual
+venv/
+
+# Variables de entorno
+.env
+
+# Base de datos SQLite (si usas una para desarrollo)
+*.sqlite3
+*.db
+
+# Archivos de PyCharm
+.idea/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de Django
+*.log
+local_settings.py
+
+# Archivos de macOS
+.DS_Store
+
+# Archivos de prueba
+
+test_db.py
